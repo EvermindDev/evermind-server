@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Config
+/config.cfg
+
+# Data
+dev/*
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+
 # Distribution / packaging
 .Python
 build/

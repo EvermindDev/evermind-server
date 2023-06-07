@@ -1,0 +1,10 @@
+requests~=2.28.2
+Flask==2.0.1
+Flask-CORS==3.0.10
+torch>=1.9.0
+schedule~=1.2.0
+diffusers
+Pillow==9.5.0
+transformers
+accelerate
+torchvision

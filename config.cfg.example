@@ -1,0 +1,26 @@
+[app]
+app_env=local
+app_debug=True
+app_url=http://127.0.0.1
+app_port=8887
+app_api_key=
+
+[file-data]
+data_directory = 'data'
+
+[storage]
+use_local_storage = True
+local_image_storage_path = 'data/images'
+image_download_path = '/static/images/'
+
+[logs]
+log_file_name = main
+
+[models]
+models_directory = 'models'
+
+[jobs]
+jobs_time = 10
+
+[test]
+test_jobs = False
